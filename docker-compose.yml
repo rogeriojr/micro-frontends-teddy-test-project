@@ -1,0 +1,14 @@
+version: '3'
+services:
+  core-frontend:
+    build: ./core-frontend
+    ports:
+      - "3000:3000"
+  partners:
+    build: ./partners
+    ports:
+      - "3001:3001"
+  companies:
+    build: ./companies
+    ports:
+      - "3002:3002"
