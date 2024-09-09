@@ -1,0 +1,101 @@
+# Caches
+.yarn
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de build e artefatos
+.next/
+out/
+dist/
+.cache/
+
+# Ignorar diretórios de build para micro front-ends (core-frontend, partners, companies)
+core-frontend/node_modules/
+core-frontend/.next/
+core-frontend/out/
+core-frontend/dist/
+core-frontend/.cache/
+
+partners/node_modules/
+partners/.next/
+partners/out/
+partners/dist/
+partners/.cache/
+
+companies/node_modules/
+companies/.next/
+companies/out/
+companies/dist/
+companies/.cache/
+
+# Arquivos de configuração do ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de ambiente específicos de micro front-ends
+core-frontend/.env
+core-frontend/.env.local
+core-frontend/.env.development.local
+core-frontend/.env.test.local
+core-frontend/.env.production.local
+
+partners/.env
+partners/.env.local
+partners/.env.development.local
+partners/.env.test.local
+partners/.env.production.local
+
+companies/.env
+companies/.env.local
+companies/.env.development.local
+companies/.env.test.local
+companies/.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Logs específicos de micro front-ends
+core-frontend/logs/
+partners/logs/
+companies/logs/
+
+# Jest
+coverage/
+*.lcov
+
+# Jest específico de micro front-ends
+core-frontend/coverage/
+partners/coverage/
+companies/coverage/
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+docker-compose.override.yml
+
+# Docker específico de micro front-ends
+core-frontend/Dockerfile
+partners/Dockerfile
+companies/Dockerfile
+
+# Mac OS
+.DS_Store
+
+# Editor de código
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Arquivos de lock
+package-lock.json
+yarn.lock
